@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_logo"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/app_logo_description" />
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAppLogo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name_caps_space_1"
+        android:textSize="24sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txtAppName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAppName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name_caps_space_2"
+        android:textSize="24sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnVacation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAppName2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/go_to_vacation_activity"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:onClick="navigateToVacationActivity" />
+
+</RelativeLayout>

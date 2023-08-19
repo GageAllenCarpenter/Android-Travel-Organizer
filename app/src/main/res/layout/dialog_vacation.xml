@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:background="@android:drawable/edit_text"
+        android:id="@+id/vacation_title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vacation_title"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <EditText
+        android:background="@android:drawable/edit_text"
+        android:id="@+id/vacation_description_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vacation_description"
+        android:lines="5"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <EditText
+        android:background="@android:drawable/edit_text"
+        android:id="@+id/vacation_hotel_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vacation_hotel"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/vacation_start_date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/excursion_start_date"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:textIsSelectable="false"
+        android:cursorVisible="false" />
+
+    <TextView
+        android:id="@+id/vacation_end_date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/excursion_end_date"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:textIsSelectable="false"
+        android:cursorVisible="false" />
+
+    <CheckBox
+        android:id="@+id/vacation_alerts_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_alerts" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.wgu.capstone.view.excursion.ExcursionActivity"
+    android:background="@color/black">
+
+    <!-- A vertical LinearLayout to hold UI elements -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TextInputLayout for search input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/searchInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <!-- EditText for search input -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:drawableEnd="@drawable/ic_search"
+                android:background="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- RecyclerView to display a list of items -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/excursion_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <!-- FloatingActionButton for adding new items -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_excursion_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/add_excursion"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/add"
+        android:layout_margin="16dp" />
+
+</FrameLayout>
