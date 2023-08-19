@@ -1,0 +1,36 @@
+Privacy Policy
+
+Last updated: 8/19/2023
+
+Introduction:
+Welcome to this vacation scheduling application! This Privacy Policy explains how we collect, use, and safeguard your personal information. By using our app, you agree to the terms outlined in this policy.
+
+Information We Collect:
+Personal Information: We do NOT collect the following personal information or any other personal information:
+- Name
+- Email address
+- Phone number
+- Location data
+
+Usage Data: We do NOT gather usage data that includes information about how you interact with our app, such as:
+- App features used
+- App settings
+- Device information
+- Log data
+
+Data Security:
+We take security seriously and implement measures to protect your data from unauthorized access, alteration, or disclosure. Internal application data is stored on the user's local device and is NOT saved in the cloud.
+
+Your Choices:
+You have the right to:
+- Access, update, or delete your personal information
+- Delete your account
+
+Children's Privacy:
+Our app is not intended for children under the age of 13. We do not knowingly collect personal information from children.
+
+Changes to This Policy:
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the updated policy on our website or within the app.
+
+Contact Us:
+If you have any questions or concerns about this Privacy Policy, please contact us at GageAllenCarpenter@gmail.com
