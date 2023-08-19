@@ -2,8 +2,6 @@
 
 Travel Organizer is a mobile application that allows users to plan and organize their vacations. The application helps users keep track of their vacations, including details like vacation title, accommodation, start date, end date, and associated excursions. Users can also set alerts for vacation start and end dates, share vacation details, and manage their excursions. The app is designed to be user-friendly and compatible with Android 8.0 and higher.
 
-<b> Git Repository: </b>  https://gitlab.com/wgu-gitlab-environment/student-repos/gcarp12/d424-software-engineering-capstone.git
-
 # Application Features
 
 ## Vacation Management
