@@ -1,5 +1,9 @@
 # Welcome to Travel Organizer!
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Android Version](https://img.shields.io/badge/Android-8.0%2B-green.svg)
+[![Figma Storyboard](https://img.shields.io/badge/Figma-Storyboard-orange)](https://www.figma.com/file/NlP4hHGLwg8ub4sDrLd2Pi/Mobile-App-Development-Story-Board?type=design&node-id=0%3A1&mode=design&t=nsr8MFZZ2FURqWf0-1)
+
 Travel Organizer is a mobile application that allows users to plan and organize their vacations. The application helps users keep track of their vacations, including details like vacation title, accommodation, start date, end date, and associated excursions. Users can also set alerts for vacation start and end dates, share vacation details, and manage their excursions. The app is designed to be user-friendly and compatible with Android 8.0 and higher.
 
 # Application Features
