@@ -6,6 +6,12 @@
 [![Privacy Policy](https://img.shields.io/badge/Privacy%20Policy-Read%20Now-blue)](https://github.com/GageAllenCarpenter/Android-Vacation-Scheduler/blob/main/PRIVACY-POLICY.txt)
 
 Travel Organizer is a mobile application that allows users to plan and organize their vacations. The application helps users keep track of their vacations, including details like vacation title, accommodation, start date, end date, and associated excursions. Users can also set alerts for vacation start and end dates, share vacation details, and manage their excursions. The app is designed to be user-friendly and compatible with Android 8.0 and higher.
+# Deployment
+
+This application has been deployed to the Google Play Store here: [Vacation Scheduler](https://play.google.com/store/apps/details?id=edu.wgu.scheduler)
+
+## CI/CD
+An automated CI/CD pipeline was built utilizing Gitlab and Fastlane. More information on this can be viewed here: [Gitlab Repository](https://gitlab.com/gcarp12/android-vacation-scheduler) 
 
 # Application Features
 
